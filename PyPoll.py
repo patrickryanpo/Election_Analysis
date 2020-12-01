@@ -1,19 +1,4 @@
-#The data we need to retrieve
-
-
-#To do: perform analysis
-
-#close the file
-
-
-
-#The total number of votes cast
-
-#A complete list of candidates who received votes
-
-#The percentage of votes each candidate won
-
-#The winner of the election based on popular vote
+#Add our dependencies 
 
 import csv
 import os
@@ -21,6 +6,8 @@ import os
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path 
 file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+total_votes=0 
 
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
@@ -30,6 +17,18 @@ with open(file_to_load) as election_data:
 
     #Read and print the header row. (Why does it print the header when using next?)
     headers = next(file_reader)
-    print(headers)
+    #print(headers)
+
+    #Print each row in the CSV file
+    for row in file_reader:
+        #Add to the total vote count.
+        total_votes += 1
+    
+print(total_votes)
+
+    
+
+
+    
 
 
