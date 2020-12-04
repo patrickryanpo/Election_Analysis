@@ -27,8 +27,8 @@ The analysis of the election show that:
     - Arapahoe county represented 6.7% of the total votes with 24,801 number of votes.
 - The county with the highest turnout of votes was: 
     - **Denver** county with 306,055 (82.8%) votes. 
-
-    
+ 
+ ![Image of Dever Map](https://github.com/patrickryanpo/Election_Analysis/blob/main/Resources/denver%20map.jpg)
 
 ## Challenge Overview
 
