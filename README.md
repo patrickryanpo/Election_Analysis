@@ -12,6 +12,9 @@ A Colorado Board of Elections employee requested for some additional data in ord
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Election-Audit Results
+
+![Summary of Election Results](https://github.com/patrickryanpo/Election_Analysis/blob/main/Resources/Screen%20Shot%202020-12-05%20at%201.26.40%20PM.png)
+
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The counties were:
