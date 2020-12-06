@@ -9,7 +9,6 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote. 
 
-## Overview of Election-Audit
 A Colorado Board of Elections employee requested for some additional data in order to complete the audit. This report provides election data based on counties. 
 
 1. Calculate the voter turnout for each county
